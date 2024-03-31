@@ -44,6 +44,12 @@ namespace SampleProjectDatabase
 			// identificator pentru valoarea pe care o avem la "connectionString". Astfel C# ne pune la
 			// dispozitie o clasa ConfigurationManager care deja in spate parseaza acest fisier automat si
 			// poate citi valorile in functie de ce "nume" ii dam noi. 
+			
+			// C# are deja din System o serie de interfete ca de exemplu IDbConnection, IDbCommand, etc. noi vrem sa
+			// ne folosim de aceste interfete pentru ca ele aduc abstractizarea. Daca schimbam in viitor db-ul, noi
+			// va trebui sa schimbam doar crearea conexiunii in clasa de DbConnection, iar restul comenzilor ar trebui
+			// sa ramana la fel. De aceea in ClientDbRepository ma folosesc doar de aceste interfete si nu e nimic SQLite
+			// specific. 
 
 
 			Console.WriteLine("Cream repository pentru clienti");
