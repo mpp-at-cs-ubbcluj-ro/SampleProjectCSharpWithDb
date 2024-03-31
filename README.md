@@ -1,4 +1,5 @@
-Proiectul ar trebui sa ruleze out-of-box. Adica fara alte setari.
+Proiectul ar trebui sa ruleze out-of-box. Adica fara alte setari atat timp cat aveti .NET Core 8.
+Daca nu il aveti, puteti deschide proiectul in Visual Studio si va v-a intreba daca vreti sa il instalati. Apoi poate fi folosit si din Rider. 
 
 
 Daca vreti sa folositi acest proiect ca baza pentru proiectul vostru trebuie sa faceti niste setari.
